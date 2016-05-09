@@ -1,0 +1,38 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:id="@+id/progress"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <ProgressBar
+            android:id="@+id/progressBar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:id="@+id/progressTV"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Loading Movies\n wait a moment..." />
+
+    </LinearLayout>
+
+
+    <GridView
+        android:id="@+id/gridview_movies"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:columnWidth="@dimen/grid_item_movie_width"
+        android:drawSelectorOnTop="true"
+        android:horizontalSpacing="@dimen/grid_item_movie_spacing"
+        android:numColumns="auto_fit"
+        android:padding="2dp"
+        android:verticalSpacing="@dimen/grid_item_movie_spacing"
+        android:visibility="visible" />
+
+</RelativeLayout>

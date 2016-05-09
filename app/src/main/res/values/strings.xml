@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Movies App</string>
+    <string name="action_sort_by">Sort by</string>
+    <string name="action_sort_by_popularity">Most Popular</string>
+    <string name="action_sort_by_rating">Highest Rated</string>
+    <string name="title_activity_detail">Movie Details</string>
+    <string name="vote_average">Vote Average: </string>
+    <string name="release_date">Released: </string>
+
+    <array name="array">
+        <item>Item 1</item>
+        <item>Item 2</item>
+        <item>Item 3</item>
+        <item>Item 4</item>
+    </array>
+</resources>
